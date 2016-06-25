@@ -24,7 +24,7 @@ import scala.scalajs.js.JSApp
 object Example extends JSApp {
   def main(): Unit = {
     val canvas = document.getElementById("canvas")
-    canvas.onPointerDown { (e: PointerEvent) => console.log(e.clientX + ", " e.clientY) }
+    canvas.onPointerDown { (e: PointerEvent) => console.log(e.clientX + ", " + e.clientY) }
   }
 }
 ```
