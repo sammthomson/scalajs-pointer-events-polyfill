@@ -5,6 +5,8 @@ A Scala.js facade for [Pointer Events Polyfill](https://github.com/jquery/PEP/tr
 a common interface for handling different pointing devices (mouse, touch, pen, etc.).
 They're not supported by many browsers yet, hence the need for a polyfill.
 
+Here's a little demo racing game that uses it: [scalajs-racer](https://github.com/sammthomson/scalajs-racer).
+
 ## Usage
 
 Add the following to your `build.sbt`:
